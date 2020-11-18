@@ -573,6 +573,24 @@
     ],
     "timestamp": "Jan/17/2021 18:34"
   },
+  "CF98800306": {
+    "contest_id": 474,
+    "language": "GNU C++17",
+    "path": "codeforces\\474\\F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Ant colony",
+    "problem_url": "https://codeforces.com/contest/474/problem/F",
+    "submission_id": "CF98800306",
+    "submission_url": "https://codeforces.com/contest/474/submission/98800306",
+    "tags": [
+      "data structures",
+      "math",
+      "number theory",
+      "*2100"
+    ],
+    "timestamp": "Nov/18/2020 16:12"
+  },
   "CF98811642": {
     "contest_id": 292,
     "language": "GNU C++17",
