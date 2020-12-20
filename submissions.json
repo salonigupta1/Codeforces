@@ -1,4 +1,21 @@
 {
+  "CF101845685": {
+    "contest_id": 32,
+    "language": "GNU C++17",
+    "path": "codeforces\\32\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Borze",
+    "problem_url": "https://codeforces.com/contest/32/problem/B",
+    "submission_id": "CF101845685",
+    "submission_url": "https://codeforces.com/contest/32/submission/101845685",
+    "tags": [
+      "expression parsing",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Dec/20/2020 17:36"
+  },
   "CF101847537": {
     "contest_id": 271,
     "language": "GNU C++17",
