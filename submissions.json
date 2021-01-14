@@ -1,4 +1,23 @@
 {
+  "CF104316279": {
+    "contest_id": 1473,
+    "language": "GNU C++17",
+    "path": "codeforces\\1473\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "String LCM",
+    "problem_url": "https://codeforces.com/contest/1473/problem/B",
+    "submission_id": "CF104316279",
+    "submission_url": "https://codeforces.com/contest/1473/submission/104316279",
+    "tags": [
+      "brute force",
+      "math",
+      "number theory",
+      "strings",
+      "*1000"
+    ],
+    "timestamp": "Jan/14/2021 20:55"
+  },
   "CF104335541": {
     "contest_id": 1473,
     "language": "GNU C++17",
