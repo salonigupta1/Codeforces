@@ -1,5 +1,5 @@
 #include <iostream>
-#include <stack>
+#include<string>
 using namespace std;
 
 #define OJ                            \
@@ -10,42 +10,26 @@ using namespace std;
     cin.tie(NULL);                    \
     cout.tie(NULL);
 
-
-
-int isBalanced(string s)
-{
-    int count = 0;
-    for(int i=0; i<s.size(); i++){
-        if(s[i] == '?'){
-            count++;
-        }
-    }
-    if(s[0] == ')' || s[s.size()-1] == '(' || count%2!=0){
-        return false;
-    }
-
-    return true;
-}
-
 int main()
 {
     //OJ;
-    FIO;
     int t;
     cin >> t;
-    while (t--)
-    {
+    while(t--){
         string s;
         cin >> s;
-        if (isBalanced(s))
-        {
-            cout << "YES" << endl;
+        int n = s.size();
+        int count = 0;
+        for(int i=0; i<n; i++){
+            if(s[i] == '?'){
+                count++;
+            }
         }
-        else
-        {
+        if(s[0] == ')' || s[s.size()-1] == '(' || count%2!=0){
             cout << "NO" << endl;
         }
+        else
+        cout << "YES" << endl;
     }
-
     return 0;
 }
