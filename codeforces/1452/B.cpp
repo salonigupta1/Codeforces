@@ -1,53 +1,41 @@
-#include <iostream>
-#include <string>
-#include<set>
-#include<climits>
-#include <algorithm>
-#include <stack>
+#include<iostream>
+#include<algorithm>
+#include<math.h>
 using namespace std;
 
-#define OJ                            \
+#define OJ \
     freopen("input.txt", "r", stdin); \
     freopen("output.txt", "w", stdout);
-#define FIO                           \
-    ios_base::sync_with_stdio(false); \
-    cin.tie(NULL);                    \
-    cout.tie(NULL);
+#define FIO ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
 
-#define ll long long int
-
-int main()
+int main() 
 {
     //OJ;
-    FIO;
-    ll t;
+    long long int t;
     cin >> t;
-    while (t--)
-    {
-        ll n;
+    while(t--){
+        long long int n;
         cin >> n;
-        ll sum = 0;
-        ll mx = INT_MIN;
-        for (ll i = 0; i < n; i++)
-        {
-            ll x;
-            cin >> x;
-            sum += x;
-            if(x>mx){
-                mx = x;
-            }
+        long long int sum = 0;
+        long long int count = 0;
+        long long int* arr = new long long int[n];
+        for(long long int i=0; i<n; i++){
+            cin >> arr[i];
+            sum+= arr[i];
         }
 
-        ll x = 0;
-        if(sum%(n-1)!=0){
-            x = (sum/(n-1)+1)*(n-1) - sum;
-            sum+=x;
+        long long int c1 = ceil((sum*1.0)/(n-1));
+        long long int s = c1*(n-1);
+
+        sort(arr, arr+n);
+
+        if(arr[n-1]>c1){
+            s = arr[n-1] * (n-1);
         }
-        if(mx <=(sum/(n-1))){
-            cout << (0+x) << endl;
-        } else {
-            cout << ((n-1)*mx-sum+x) << endl;
-        }
+
+        cout << s-sum << endl;
+
     }
-    return 0;
+return 0;
+   
 }
