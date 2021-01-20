@@ -12,34 +12,71 @@ using namespace std;
 int main()
 {
     //OJ;
-     int n, x, count[8] = {0};
-    scanf("%d", &n);
-    for (int i = 0; i < n; ++i)
-    {
-        scanf("%d", &x);
-        count[x] += 1;
+    int n;
+    cin >> n;
+    int arr[8] = {0};
+    int x;
+    for(int i=0; i<n; i++){
+        cin >> x;
+        arr[x]++;
     }
 
-    bool solution;
-    if (count[5] == 0 && count[7] == 0 && count[2] >= count[4] && count[1] == count[4] + count[6] && count[2] + count[3] == count[4] + count[6])
-    {
-        for (int i = 0; i < count[4]; ++i)
-        {
-            printf("1 2 4\n");
+    int reqParts = n/3;
+    if(arr[1] == reqParts){
+        if(arr[2] + arr[3] == n/3){
+            int twoCount = arr[2];
+            int threeCount = arr[3];
+            if(twoCount == 0){
+                if(arr[6]!=reqParts){
+                    cout << -1 << endl;
+                } else {
+                    for(int i=0; i<reqParts; i++){
+                        cout << 1 << " " << 3 <<  " " << 6  << endl;
+                    }
+                }
+            } else if(threeCount == 0){
+                if(arr[6]+arr[4]!=reqParts){
+                    cout << -1 << endl;
+                } else {
+                    int fourCount = arr[4];
+                    for(int i=0; i<fourCount; i++){
+                        cout << 1 << " " << 2 << " " << 4 << endl;
+                    }
+                    int sixCount = arr[6];
+                    for(int i=0; i<sixCount; i++){
+                        cout << 1 << " " << 2 << " " << 6 << endl;
+                    }
+                }
+            } else {
+                if(arr[3]>arr[6]){
+                    cout << -1 << endl;
+                }  else{
+                    int countFour = arr[4];
+                    int countSix = arr[6];
+                    if(countFour + countSix != reqParts){
+                        cout << -1 << endl;
+                    } else if(countSix == 0){
+                        cout << -1 << endl;
+                    } else {
+                        for(int i=0; i<arr[3]; i++){
+                            cout << 1 << " " << 3 << " " << 6 << endl;
+                        }
+                        int sixLeft = arr[6]-arr[3];
+                        for(int i=0; i<sixLeft; i++){
+                            cout << 1 << " " << 2 << " " << 6 << endl;
+                        }
+                        for(int i=0; i<countFour; i++){
+                            cout << 1 << " " << 2 << " " << 4 << endl;
+                        }
+                    }
+                }
+                
+            }
+        } else {
+            cout << -1 << endl;
         }
-        count[2] -= count[4];
-        for (int i = 0; i < count[2]; ++i)
-        {
-            printf("1 2 6\n");
-        }
-        for (int i = 0; i < count[3]; ++i)
-        {
-            printf("1 3 6\n");
-        }
-    }
-    else
-    {
-        printf("-1\n");
+    } else {
+        cout << -1 << endl;
     }
 
     return 0;
