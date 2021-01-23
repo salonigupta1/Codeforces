@@ -891,6 +891,22 @@
     ],
     "timestamp": "Jan/20/2021 20:13"
   },
+  "CF105143893": {
+    "contest_id": 462,
+    "language": "GNU C++17",
+    "path": "codeforces\\462\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Appleman and Card Game",
+    "problem_url": "https://codeforces.com/contest/462/problem/B",
+    "submission_id": "CF105143893",
+    "submission_url": "https://codeforces.com/contest/462/submission/105143893",
+    "tags": [
+      "greedy",
+      "*1300"
+    ],
+    "timestamp": "Jan/23/2021 16:31"
+  },
   "CF105144855": {
     "contest_id": 450,
     "language": "GNU C++17",
