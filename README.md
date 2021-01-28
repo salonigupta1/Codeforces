@@ -12,11 +12,12 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-106 | [B - Nezzar and Lucky Number](https://codeforces.com/contest/1478/problem/B) | [GNU C++17](./codeforces/1478/B.cpp) | `brute force` `dp` `greedy` `math` `*1100` | Jan/28/2021 21:41 | 
-105 | [A - Nezzar and Colorful Balls](https://codeforces.com/contest/1478/problem/A) | [GNU C++17](./codeforces/1478/A.cpp) | `brute force` `greedy` `*800` | Jan/28/2021 20:13 | 
-104 | [B - Vasya and Wrestling](https://codeforces.com/contest/493/problem/B) | [GNU C++17](./codeforces/493/B.cpp) | `implementation` `*1400` | Jan/28/2021 19:39 | 
-103 | [B - Kefa and Company](https://codeforces.com/contest/580/problem/B) | [GNU C++17](./codeforces/580/B.cpp) | `binary search` `sortings` `two pointers` `*1500` | Jan/28/2021 19:18 | 
-102 | [D - Queue](https://codeforces.com/contest/545/problem/D) | [GNU C++17](./codeforces/545/D.cpp) | `greedy` `implementation` `sortings` `*1300` | Jan/28/2021 18:12 | 
+107 | [B - Nezzar and Lucky Number](https://codeforces.com/contest/1478/problem/B) | [GNU C++17](./codeforces/1478/B.cpp) | `brute force` `dp` `greedy` `math` `*1100` | Jan/28/2021 21:41 | 
+106 | [A - Nezzar and Colorful Balls](https://codeforces.com/contest/1478/problem/A) | [GNU C++17](./codeforces/1478/A.cpp) | `brute force` `greedy` `*800` | Jan/28/2021 20:13 | 
+105 | [B - Vasya and Wrestling](https://codeforces.com/contest/493/problem/B) | [GNU C++17](./codeforces/493/B.cpp) | `implementation` `*1400` | Jan/28/2021 19:39 | 
+104 | [B - Kefa and Company](https://codeforces.com/contest/580/problem/B) | [GNU C++17](./codeforces/580/B.cpp) | `binary search` `sortings` `two pointers` `*1500` | Jan/28/2021 19:18 | 
+103 | [D - Queue](https://codeforces.com/contest/545/problem/D) | [GNU C++17](./codeforces/545/D.cpp) | `greedy` `implementation` `sortings` `*1300` | Jan/28/2021 18:12 | 
+102 | [A - Adding Digits](https://codeforces.com/contest/260/problem/A) | [GNU C++17](./codeforces/260/A.cpp) | `implementation` `math` `*1400` | Jan/28/2021 17:50 | 
 101 | [B - Modulo Sum](https://codeforces.com/contest/577/problem/B) | [GNU C++17](./codeforces/577/B.cpp) | `combinatorics` `data structures` `dp` `two pointers` `*1900` | Jan/25/2021 15:48 | 
 100 | [B - Maximum Product](https://codeforces.com/contest/1406/problem/B) | [GNU C++17](./codeforces/1406/B.cpp) | `brute force` `dp` `greedy` `implementation` `sortings` `*1200` | Jan/25/2021 15:14 | 
 99 | [A - Sereja and Bottles](https://codeforces.com/contest/315/problem/A) | [GNU C++17](./codeforces/315/A.cpp) | `brute force` `*1400` | Jan/25/2021 14:35 | 
