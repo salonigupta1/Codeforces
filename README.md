@@ -12,7 +12,8 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-122 | [C - Watering Flowers](https://codeforces.com/contest/617/problem/C) | [GNU C++17](./codeforces/617/C.cpp) | `implementation` `*1600` | Feb/03/2021 11:00 | 
+123 | [C - Watering Flowers](https://codeforces.com/contest/617/problem/C) | [GNU C++17](./codeforces/617/C.cpp) | `implementation` `*1600` | Feb/03/2021 11:00 | 
+122 | [B - Chocolate](https://codeforces.com/contest/617/problem/B) | [GNU C++17](./codeforces/617/B.cpp) | `combinatorics` `*1300` | Feb/03/2021 10:08 | 
 121 | [A - K-divisible Sum](https://codeforces.com/contest/1476/problem/A) | [GNU C++17](./codeforces/1476/A.cpp) | `binary search` `constructive algorithms` `greedy` `math` `*1000` | Feb/01/2021 11:50 | 
 120 | [C - Three Bags](https://codeforces.com/contest/1467/problem/C) | [GNU C++17](./codeforces/1467/C.cpp) | `constructive algorithms` `greedy` `*1900` | Feb/01/2021 11:34 | 
 119 | [B - Hills And Valleys](https://codeforces.com/contest/1467/problem/B) | [GNU C++17](./codeforces/1467/B.cpp) | `brute force` `implementation` `*1700` | Feb/01/2021 10:51 | 
