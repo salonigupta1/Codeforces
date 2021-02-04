@@ -1630,6 +1630,23 @@
     ],
     "timestamp": "Feb/03/2021 16:52"
   },
+  "CF106423864": {
+    "contest_id": 604,
+    "language": "GNU C++17",
+    "path": "codeforces\\604\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "More Cowbell",
+    "problem_url": "https://codeforces.com/contest/604/problem/B",
+    "submission_id": "CF106423864",
+    "submission_url": "https://codeforces.com/contest/604/submission/106423864",
+    "tags": [
+      "binary search",
+      "greedy",
+      "*1400"
+    ],
+    "timestamp": "Feb/04/2021 11:25"
+  },
   "CF106423940": {
     "contest_id": 604,
     "language": "GNU C++17",

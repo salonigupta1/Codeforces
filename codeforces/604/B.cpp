@@ -35,7 +35,11 @@ int main()
     //2k-n cows ek dabbe mein
     ll ex = 2*k-n, m=0;
     m = q.back();
-    n-=ex;
+    while(ex && n){
+        ex--;
+        n--;
+    }
+
     n--;
     int i=0;
 
