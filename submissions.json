@@ -1891,6 +1891,22 @@
     ],
     "timestamp": "Feb/06/2021 11:25"
   },
+  "CF107099191": {
+    "contest_id": 1425,
+    "language": "GNU C++17",
+    "path": "codeforces\\1425\\F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Flamingoes of Mystery",
+    "problem_url": "https://codeforces.com/contest/1425/problem/F",
+    "submission_id": "CF107099191",
+    "submission_url": "https://codeforces.com/contest/1425/submission/107099191",
+    "tags": [
+      "interactive",
+      "*1400"
+    ],
+    "timestamp": "Feb/11/2021 10:19"
+  },
   "CF107101078": {
     "contest_id": 1424,
     "language": "GNU C++17",
