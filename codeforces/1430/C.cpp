@@ -13,7 +13,7 @@ using namespace std;
 
 int main()
 {
-    //OJ;
+    
     int t;
     cin >> t;
     while(t--){
@@ -38,7 +38,7 @@ int main()
             ans.push_back({a, b});
         }
 
-        cout << 2 << endl;
+        cout << *m.begin() << endl;
         for(int i=0; i<ans.size(); i++){
             cout << ans[i].first << " " << ans[i].second << endl;
         }
