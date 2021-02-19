@@ -15,7 +15,7 @@ using namespace std;
 ll fun(ll n){
     ll ans = 1e18;
     for(ll i=1; i*i<=n; i++){
-        ans = min(ans, i-1+((n-1)/i));
+        ans = min(ans, i-1+((n-i)+i-1)/i);
     }
 
     return ans;
@@ -23,7 +23,7 @@ ll fun(ll n){
 
 int main()
 {
-    //OJ;
+   // OJ;
     ll t;
     cin >> t;
     while(t--){
