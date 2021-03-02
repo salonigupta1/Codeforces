@@ -2593,6 +2593,23 @@
     ],
     "timestamp": "Feb/24/2021 22:26"
   },
+  "CF108898753": {
+    "contest_id": 1494,
+    "language": "GNU C++17",
+    "path": "codeforces\\1494\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "ABC String",
+    "problem_url": "https://codeforces.com/contest/1494/problem/A",
+    "submission_id": "CF108898753",
+    "submission_url": "https://codeforces.com/contest/1494/submission/108898753",
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "implementation"
+    ],
+    "timestamp": "Mar/02/2021 20:39"
+  },
   "CF108971930": {
     "contest_id": 1494,
     "language": "GNU C++17",
