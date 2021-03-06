@@ -2751,6 +2751,22 @@
     ],
     "timestamp": "Mar/03/2021 20:34"
   },
+  "CF109279705": {
+    "contest_id": 1493,
+    "language": "GNU C++17",
+    "path": "codeforces\\1493\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Planet Lapituletti",
+    "problem_url": "https://codeforces.com/contest/1493/problem/B",
+    "submission_id": "CF109279705",
+    "submission_url": "https://codeforces.com/contest/1493/submission/109279705",
+    "tags": [
+      "brute force",
+      "implementation"
+    ],
+    "timestamp": "Mar/06/2021 22:25"
+  },
   "CF96816982": {
     "contest_id": 4,
     "language": "GNU C++17",
