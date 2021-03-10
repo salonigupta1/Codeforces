@@ -14,11 +14,11 @@ using namespace std;
     cout.tie(NULL);
 
 
-vector<double>vx,vy;
+vector<int>vx,vy;
 
 int main()
 {
-   // OJ;
+    //OJ;
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
  
@@ -26,27 +26,25 @@ int main()
     cin>>line;
     while(line--)
     {
-        cin >> n;
-        for(int i=0; i<2*n; i++){
-            int a, b;
-            cin >> a >> b;
-            if(a==0){
-                vy.push_back(abs(b));
-            } else {
-                vx.push_back(abs(a));
-            }
+        cin>>n;
+        for(i=1; i<=(n<<1); i++)
+        {
+                int x,y;
+                cin>>x>>y;
+                if(x==0) vy.push_back(abs(y));
+                else if(y==0) vx.push_back(abs(x));
         }
         sort(vx.begin(),vx.end());
         sort(vy.begin(),vy.end());
         double ans=0.00;
-        long double fin = 0.00;
-        for(i=0; i<n; i++){
-            fin += (double)sqrt((double)(vy[i] * vy[i]) + (double)(vx[i] * vx[i])); 
+        for(i=0; i<n; i++)
+        {
+            double temp=(double)sqrtl((double)vx[i]*(double)vx[i]+(double)vy[i]*(double)vy[i]);
+            ans+=temp;
         }
- 
         cout<<setprecision(15);
         cout<<fixed;
-        cout<<fin<<endl;
+        cout<<ans<<endl;
  
         vx.clear();
         vy.clear();
