@@ -42,7 +42,7 @@ int main()
             double temp=(double)sqrtl((double)vx[i]*(double)vx[i]+(double)vy[i]*(double)vy[i]);
             ans+=temp;
         }
-        cout<<setprecision(15);
+        cout<<setprecision(10);
         cout<<fixed;
         cout<<ans<<endl;
  
