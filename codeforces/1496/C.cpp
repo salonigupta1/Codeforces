@@ -19,7 +19,8 @@ vector<double>vx,vy;
 int main()
 {
    // OJ;
-    FIO;
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
  
     int line,n,i,j;
     cin>>line;
