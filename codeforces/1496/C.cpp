@@ -4,7 +4,7 @@
 #include <iomanip>
 #include <math.h>
 using namespace std;
- 
+
 #define OJ                            \
     freopen("input.txt", "r", stdin); \
     freopen("output.txt", "w", stdout);
@@ -12,40 +12,42 @@ using namespace std;
     ios_base::sync_with_stdio(false); \
     cin.tie(NULL);                    \
     cout.tie(NULL);
- 
 
-vector<double> xaxis, yaxis;
- 
+
+vector<double>vx,vy;
+
 int main()
 {
    // OJ;
     FIO;
-    int t;
-    cin >> t;
-    while(t--){
-        int n;
+ 
+    int line,n,i,j;
+    cin>>line;
+    while(line--)
+    {
         cin >> n;
-        int a, b;
         for(int i=0; i<2*n; i++){
+            int a, b;
             cin >> a >> b;
             if(a==0){
-                yaxis.push_back(abs(b));
+                vy.push_back(abs(b));
             } else {
-                xaxis.push_back(abs(a));
+                vx.push_back(abs(a));
             }
         }
- 
-        sort(yaxis.begin(), yaxis.end());
-        sort(xaxis.begin(), xaxis.end());
-        double fin = 0.00;
-        for(int i=0; i<n; i++){
-            fin += sqrt(yaxis[i] * yaxis[i] + xaxis[i] * xaxis[i]); 
+        sort(vx.begin(),vx.end());
+        sort(vy.begin(),vy.end());
+        double ans=0.00;
+        long double fin = 0.00;
+        for(i=0; i<n; i++){
+            fin += (double)sqrt((double)(vy[i] * vy[i]) + (double)(vx[i] * vx[i])); 
         }
  
-        
-        std::cout << std::fixed << std::setprecision(15) << fin << endl;
-        xaxis.clear();
-        yaxis.clear();
+        cout<<setprecision(15);
+        cout<<fixed;
+        cout<<fin<<endl;
+ 
+        vx.clear();
+        vy.clear();
     }
-    return 0;
 }
